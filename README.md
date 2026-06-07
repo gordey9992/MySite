@@ -5,6 +5,6 @@
 </a>
 
 <hr>
-<p>
+<p align="center">
     &copy; 2026 gordey9992
 </p>
