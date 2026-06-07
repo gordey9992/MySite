@@ -6,6 +6,14 @@
 </a>
 </p>
 
+<table>
+    <tr>
+        <th>Пожелания вам</th>
+    </tr>
+    <tr>
+        <td>Удачи</td>
+    </tr>
+</table>
 <hr>
 <p align="center">
     &copy; 2026 gordey9992
