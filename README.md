@@ -4,6 +4,7 @@
     <button>Сайт с портфолио</button>
 </a>
 
+<hr>
 <p>
     &copy; 2026 gordey9992
 </p>
