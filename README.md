@@ -6,7 +6,7 @@
 </a>
 </p>
 
-<table>
+<table border="0">
     <tr>
         <th>Пожелания вам</th>
     </tr>
