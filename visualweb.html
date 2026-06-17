@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Живой HTML-редактор</title>
+</head>
+<body>
+    <h2>Пиши HTML — результат сразу внизу</h2>
+
+    <textarea id="code" rows="12" cols="70" style="font-family: monospace; font-size: 14px; width: 100%; max-width: 700px;">
+<h1>Привет!</h1>
+<p>Напиши что-нибудь здесь.</p>
+    </textarea>
+
+    <hr>
+
+    <h3>Результат:</h3>
+    <div id="preview" style="border: 1px solid #ccc; padding: 10px; min-height: 100px;">
+        <!-- сюда будет вставляться результат -->
+    </div>
+
+    <script>
+        const code = document.getElementById('code');
+        const preview = document.getElementById('preview');
+
+        function update() {
+            preview.innerHTML = code.value;
+        }
+
+        code.addEventListener('input', update); // обновление при каждом нажатии клавиши
+        update(); // первый запуск
+    </script>
+</body>
+</html>
