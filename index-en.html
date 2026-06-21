@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+
+<style>
+body {
+    background: #ffffff;
+    animation: bodycolor 12s ease-in-out infinite;
+}
+.bp {
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.bp:hover {
+    animation: bp 2s ease-in-out infinite;
+}
+@keyframes bp {
+    0% {transform: scale(1.00);}
+    10% {transform: scale(1.01);}
+    20% {transform: scale(1.02);}
+    30% {transform: scale(1.03);}
+    40% {transform: scale(1.04);}
+    50% {transform: scale(1.05);}
+    60% {transform: scale(1.04);}
+    70% {transform: scale(1.03);}
+    80% {transform: scale(1.02);}
+    90% {transform: scale(1.01);}
+    100% {transform: scale(1.00);}
+}
+@keyframes bodycolor {
+    0%   { background: #ffffff; }
+    25%  { background: #f9f9f9; }
+    50%  { background: #f5f5f5; }
+    75%  { background: #fafafa; }
+    100% { background: #ffffff; }
+}
+</style>
+
+<body>
+    <h1 id="main_page">gordey9992's <i>portfolio</i></h1>
+
+    <table border="1" cellpadding="10">
+        <caption>About Me</caption>
+        <thead>
+        <tr>
+            <th bgcolor="lightgray">Interests</th>
+            <th bgcolor="lightgray">Projects</th>
+            <th bgcolor="lightgray">PLs</th>
+            <th bgcolor="lightgray">Favorite games/apps</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Programming</td>
+            <td>This site and the fried potato recipe site</td>
+            <td>HTML (and CSS), C++, Java</td>
+            <td>Visual Studio Community (and Code)</td>
+        </tr>
+        <tr>
+            <td>Games</td>
+            <td>—</td>
+            <td>—</td>
+            <td>DDNet, Minecraft, Geometry Dash</td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>—</td>
+            <td>—</td>
+            <td>Stepik</td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <details style="cursor: pointer;">
+        <summary>What is &laquo;PL&raquo;?</summary>
+        <p style="cursor: text;"> &laquo;PL&raquo; stands for &laquo;Programming Language&raquo;. On the site, the abbreviation is used as &laquo;PLs&raquo;, which stands for &laquo;Programming Languages&raquo;</p>
+    </details>
+    <br>
+    <h2 align="center">Projects</h2>
+    <p align="center">
+    <a href="https://gordey9992.github.io/MySite/potato.html" title="Click if you want to see!">
+        <button class="bp">Fried Potato Recipe Site</button>
+    </a>
+    <br>
+    <a href="https://gordey9992.github.io/MySite/Хьюстон-ДЗ-Stepik.html" title="Click if you want to see!">
+        <button class="bp">Houston Homework Site</button>
+    </a>
+    <br>
+    <a href="https://gordey9992.github.io/MySite/index.html" title="Кликни если хочешь посмотреть!">
+        <button class="bp">Русская версия</button>
+    </a>
+    <hr>
+<p align="center">
+    <b>&copy; 2026 gordey9992</b>
+</p>
+</body>
+</html>
